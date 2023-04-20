@@ -1,3 +1,19 @@
 .new-watches {
-    background-color: aqua;
+    background-color: var(--section-bg-color-white);
+    }
+.new-watches-title {
+    font-family: Epilogue-light, sans-serif;
+    font-size: 12px;
+    line-height: 1.16;
+    color: rgba(20, 20, 20, 0.4);
+    letter-spacing: 0.06em;
+
+} 
+.new-watches-subtitle {
+    font-family: Epilogue-SemiBold;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+
 }
