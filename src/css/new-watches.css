@@ -1,7 +1,7 @@
 .new-watches {
     background-color: var(--section-bg-color-white);
     }
-.new-watches-title {
+.subtitle {
     font-family: Epilogue, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -11,13 +11,3 @@
     letter-spacing: 0.06em;
 
 } 
-.new-watches-subtitle {
-    font-family: Epilogue, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    color: var(--text-color);
-
-}
