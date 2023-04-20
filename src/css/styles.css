@@ -4,22 +4,10 @@
   | default @import url()
   |============================
 */
-@font-face {
-  font-family: Epilogue-regular;
-  src: url(../fonts/Epilogue/static/Epilogue-Regular.ttf);
-};
-@font-face { 
-  font-family: Epilogue-SemiBold;
-  src: url(../fonts/Epilogue/static/Epilogue-SemiBold.ttf);
-};
-@font-face {
-    font-family: Epilogue-light;
-    src: url(../fonts/Epilogue/static/Epilogue-Light.ttf);
 
-};
 @import url('./variables.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
+/* @import url('./vite-promo.css'); */
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about-us.css');
