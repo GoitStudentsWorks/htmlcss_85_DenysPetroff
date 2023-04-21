@@ -1,3 +1,7 @@
+
+.about-list {  
+   display: flex;   
+}
 .about-us { 
     font-weight: 600;
     font-size: 32px;
@@ -11,4 +15,22 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #141414;
+    margin: 20px 0 auto;
+}
+@media screen and (min-width: 768px) {
+    .about-text {
+        display: flex;
+        margin-right: auto;
+        width: calc((100% - 20px)/2);
+    }
+}
+.about-img{
+    
+}
+@media screen and (min-width: 768px) {
+    .about-img {
+        margin: 32px 0;
+        width: 704px;
+        justify-content: center; 
+    }
 }
