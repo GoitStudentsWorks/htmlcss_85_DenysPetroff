@@ -17,10 +17,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
   </head>
   <body>
     <load ="partials/header.html" />
-    <load ="partials/hero.html" />
+    <load "partials/hero.html" />
     <load ="partials/about-us.html" />
     <load ="partials/catalog.html" />
     <load ="partials/new-watches.html" />
@@ -32,6 +37,12 @@
     <!-- Loads the specified .html file -->
     <load ="partials/vite-promo.html" />
 
+    <script type="module">
+      import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+      const swiper = new Swiper(...)
+    </script>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/hero.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
