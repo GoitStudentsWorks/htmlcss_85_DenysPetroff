@@ -1,6 +1,16 @@
 
-.about-list {  
-   display: flex;   
+.about-list{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+    .about-list {
+        width: calc((100% - 20px)/2);
+        margin: auto 264px 0;
+        flex-direction: row;
+        max-width: 100%;
+        gap: 0 20px;
+    }
 }
 .about-us { 
     font-weight: 600;
@@ -20,8 +30,7 @@
 @media screen and (min-width: 768px) {
     .about-text {
         display: flex;
-        margin-right: auto;
-        width: calc((100% - 20px)/2);
+        width: calc((100% - 20px)/1);
     }
 }
 .about-img{
