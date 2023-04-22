@@ -16,8 +16,8 @@
   justify-content: space-between;
   width: 100%;
 }
-.logotype-svg {
-  fill: var(--text-white-color);
+.logo-img {
+  background-color: transparent;
   height: 14px;
   width: 14px;
 }
@@ -93,7 +93,7 @@
   .logotype-link-text {
     font-size: 15px;
   }
-  .logotype-svg {
+  .logo-img {
     height: 19px;
     width: 19px;
   }
