@@ -20,9 +20,12 @@
   transform: translateX(0);
 }
 .mob-menu-close {
-  background-color: gray;
+  background-color: transparent;
   border: none;
+  width: 24px;
+  height: 24px;
 }
+
 .mob-menu-close-icon {
   stroke: var(--section-bg-color-white);
   height: 24px;
