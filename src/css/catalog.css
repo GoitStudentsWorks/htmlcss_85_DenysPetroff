@@ -23,8 +23,6 @@
 @media screen and (min-width: 1280px) {
     .catalog-container {
         max-width: 1280px;
-        padding-left: 132px;
-        padding-right: 132px;
     }
 }
 
@@ -42,10 +40,6 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 83px;
-}
-
-.catalog-desrpiption {
-  margin-top: 57px;
 }
 
 .section-text {
@@ -82,6 +76,7 @@
     color: var(--text-white-color);
 
     margin-bottom: 10px;
+   
 
 }
 
@@ -91,7 +86,7 @@
     line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 22px;
+    margin-bottom: 10px;
     width: 162px;  
 }
 
@@ -102,6 +97,7 @@
 .overlay {
     position: relative;
     overflow: hidden;
+    padding-bottom: 57px;
 }
 
 .overlay-desrpiption {
@@ -121,46 +117,46 @@
     height: 100%;
     background-color: var(--footer-burger-accent-bg-dark-green);
 
-    transform: translateY(100%); 
+    transform: translateX(-100%); 
     transition: transform 250ms cubic-bezier var(--transform-cubik), opacity 250ms cubic-beziervar var(--transform-cubik);
 
-    opacity: 0;
 }
 
-.catalog.catalog-card:hover .overlay-desrpiption,
-.catalog.catalog-card:focus .overlay-desrpiption {
+
+.catalog .catalog-card:hover .overlay-desrpiption,
+.catalog .catalog-card:focus .overlay-desrpiption {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
 }
 
 
 .catalog-button {
     background-color: var(--footer-burger-accent-bg-dark-green);
-        border-radius: 8px;
-        border: 1px solid var(--footer-burger-accent-bg-dark-green);
-        border: none;
-        color: var(--hero-h1-color);
+    border-radius: 8px;
+    border: 1px solid var(--footer-burger-accent-bg-dark-green);
+    border: none;
+    color: var(--hero-h1-color);
     
     
-        font-family: inherit;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        text-align: center;
-        text-transform: uppercase;
-        cursor: pointer;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
     
-        margin-left: auto;
+    margin-left: auto;
     
-        display: block;
+    display: block;
     
-        max-width: 108px;
+    max-width: 108px;
     
     
-        padding: 14px 28px;
+    padding: 14px 28px;
     
-        transition: border 250ms cubic-bezier var(--transform-cubik);
+    transition: border 250ms cubic-bezier var(--transform-cubik);
 }
 
 
