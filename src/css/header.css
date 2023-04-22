@@ -57,6 +57,8 @@
 .mob-menu-open-icon {
   fill: var(--text-white-color);
   background-color: transparent;
+  height: 24px;
+  width: 24px;
 }
 .mob-menu-open {
   position: absolute;
@@ -119,5 +121,9 @@
   .logotype-svg {
     height: 19px;
     width: 19px;
+  }
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    font-size: 12px;
   }
 }
