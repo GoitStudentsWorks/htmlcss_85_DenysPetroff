@@ -53,7 +53,7 @@
   border-radius: 50%;
 }
 .footer-icon {
-  fill: var(--text-white-color);
+  fill:  rgb(255, 255, 255, 0.8);
 }
 
 .footer-address-list {
@@ -132,9 +132,11 @@
   }
   .footer-address-list {
     margin-bottom: 152px;
+   
   }
   .footer-icon-list {
     margin: 0;
+    gap: 16px;
   }
   .footer-text-list {
     gap: 18px;
