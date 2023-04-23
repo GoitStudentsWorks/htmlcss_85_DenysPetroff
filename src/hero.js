@@ -10,7 +10,12 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
-    type: "fraction"
+    type: 'fraction'
+    // renderFraction: function (currentClass, totalClass) {
+    //   return '<span class="' + currentClass + '"></span>' +
+    //    '___' +
+    //   '<span class="' + totalClass + '"></span>';
+    // }
   },
 
   // Navigation arrows
