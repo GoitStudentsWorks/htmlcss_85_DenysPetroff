@@ -169,11 +169,11 @@ margin-right: 20px;
       .hero {
         display: flex;
         flex-wrap: wrap;
-        width: 1200px;
+        width: 1464px;
         padding-top: 148px;
         padding-bottom: 80px;
-        /* padding-left: 132px;
-        padding-right: 132px; */
+        padding-left: 132px;
+        padding-right: 132px;
       }
 
       .main-title {
