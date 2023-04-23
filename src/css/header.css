@@ -1,8 +1,9 @@
 .container {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+  max-width: 355px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* margin: 0 auto; */
 }
 .header {
   background-color: transparent;
@@ -10,11 +11,19 @@
   top: 0;
   width: 100%;
 }
-.header-container {
+
+ .header-container {
+  position: relative;
   padding-top: 29px;
+  
+  /* justify-content: space-between; */
+  
+}
+.container.header-container {
+
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  width: 100%;
 }
 .logo-img {
   background-color: transparent;
@@ -62,24 +71,27 @@
 }
 .mob-menu-open {
   position: absolute;
-  top: 29px;
-  right: 20px;
+  top: 25px;
+  right: 0;
   background-color: transparent;
   border: 0;
 }
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 375px)  {
   .container {
-    max-width: 375px;
+    max-width: none;
+    width: 355px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    width: 736px;
     padding-left: 32px;
     padding-right: 32px;
+    display: flex;
   }
   .header-container {
     padding-top: 34px;
+    
   }
   .header-nav {
     display: flex;
@@ -112,9 +124,9 @@
     display: none;
   }
 }
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1140px;
+    max-width: 1200px;
     padding-left: 132px;
     padding-right: 132px;
   }
