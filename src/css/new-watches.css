@@ -54,6 +54,10 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    .title-new-wathes {
+        font-size: 40px;
+    }
     .new-watches-item {
         width: calc((100% - 20px)/2) ;
     }
