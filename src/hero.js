@@ -10,6 +10,7 @@ const swiper = new Swiper('.swiper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    type: "fraction"
   },
 
   // Navigation arrows
@@ -22,4 +23,16 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+
+
+effect: "cube"
+// cubeEffect: {
+// slideShadows: true;
+// shadow: true;
+// shadowOffset: 20;
+// shadowScale: 0.94; 
+//   }
+
+ 
+
 });
