@@ -98,8 +98,8 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
-    width: 736px;
+  .container.header-container {
+    max-width: 736px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
@@ -139,7 +139,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
+  .container.header-container {
     max-width: 1200px;
     padding-left: 132px;
     padding-right: 132px;
