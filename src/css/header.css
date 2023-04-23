@@ -3,7 +3,10 @@
   max-width: 355px;
   padding-left: 10px;
   padding-right: 10px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
+}
+.link {
+  cursor: pointer;
 }
 .header {
   background-color: transparent;
@@ -11,16 +14,11 @@
   top: 0;
   width: 100%;
 }
-
- .header-container {
+.header-container {
   position: relative;
   padding-top: 29px;
-  
-  /* justify-content: space-between; */
-  
 }
 .container.header-container {
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -39,7 +37,12 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: var(--text-white-color);
+  transition: color 250ms var(--transform-cubik);
+}
+.logotype-link:hover > .logotype-link-text,
+.logotype-link:focus > .logotype-link-text {
+  color: var(--text-copyright-footer-color);
 }
 .header-nav-list {
   display: none;
@@ -51,17 +54,29 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--text-white-color);
+  transition: color 250ms var(--transform-cubik);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--text-copyright-footer-color);
 }
 .header-address {
   display: none;
 }
 .address-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 9px;
   line-height: 1.33;
   text-align: center;
   text-transform: uppercase;
   color: var(--text-white-color);
+  padding: 18px 35px;
+  transition: color 250ms var(--transform-cubik);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--text-copyright-footer-color);
 }
 .mob-menu-open-icon {
   fill: var(--text-white-color);
@@ -76,7 +91,7 @@
   background-color: transparent;
   border: 0;
 }
-@media screen and (min-width: 375px)  {
+@media screen and (min-width: 375px) {
   .container {
     max-width: none;
     width: 355px;
@@ -91,7 +106,6 @@
   }
   .header-container {
     padding-top: 34px;
-    
   }
   .header-nav {
     display: flex;
@@ -129,13 +143,5 @@
     max-width: 1200px;
     padding-left: 132px;
     padding-right: 132px;
-  }
-  .logotype-svg {
-    height: 19px;
-    width: 19px;
-  }
-  .header-nav-link:hover,
-  .header-nav-link:focus {
-    font-size: 12px;
   }
 }
