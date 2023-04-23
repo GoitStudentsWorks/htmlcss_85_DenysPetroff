@@ -70,7 +70,7 @@
 
 .price {
     font-size: 12px;
-    line-height: 1.17x;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     color: var(--text-price-color);
 
