@@ -26,3 +26,17 @@
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
+// закриває меню при кліку на посилання
+
+var links = document.querySelectorAll('#mobile-menu a');
+
+// перевіряємо кожне посилання
+for (var i = 0; i < links.length; i++) {
+  // додаємо подію кліку на кожне посилання
+  links[i].addEventListener('click', function () {
+    // знаходимо меню
+    var menu = document.querySelector('#mobile-menu');
+    // закриваємо меню
+    menu.classList.remove('is-open');
+  });
+}
