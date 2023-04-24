@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+
   height: 100%;
   background-color: var(--footer-burger-accent-bg-dark-green);
   padding: 29px 20px 0 20px;
@@ -12,9 +13,12 @@
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
+
 .mob-menu-logo-bt-wrap {
   display: flex;
   justify-content: space-between;
+  max-width: 355px;
+  margin: 0 auto;
 }
 .mob-menu.is-open {
   transform: translateX(0);
