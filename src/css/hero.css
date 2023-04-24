@@ -1,3 +1,7 @@
+.section-udercover {
+  background-color: var(--section-hero-bg-color);
+}
+
 .container {
   width: 100%;
   max-width: 355px;
@@ -12,6 +16,7 @@
   background-color: var(--section-hero-bg-color);
   background-position: center;
   background-size: cover;
+  /* outline: 1px solid red; */
 }
 
 .swiper {
@@ -74,11 +79,11 @@
   color: var(--text-white-color);
   text-align: end;
 }
-
+/* 
 .swiper-pagination-current,
 .swiper-pagination-total {
 
-}
+} */
 
 .main-title {
   display: block;
@@ -180,11 +185,11 @@
 @media screen and (min-width: 1280px) {
       
 .hero {
-  width: 1464px;
+  width: 1200px;
   padding-top: 148px;
   padding-bottom: 80px;
-  padding-left: 132px;
-  padding-right: 132px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 #swiper {

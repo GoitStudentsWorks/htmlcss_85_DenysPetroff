@@ -5,10 +5,11 @@
     padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
+    /* outline: 1px solid red; */
 }
 
 .catalogs {
-   background-color: var(--section-bg-color-creame);
+   background-color: var(--section-bg-color-cream);
 }
 .overlay>img {
     margin-left: auto;

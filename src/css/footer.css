@@ -89,14 +89,37 @@
 .link-addres-tel {
   color: var(--text-white-color);
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-addres-map {
   color: var(--text-white-color);
   letter-spacing: -0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.link-addres-tel:hover {
+  color: var(--text-copyright-footer-color);
+}
+
+.link-addres-tel:focus {
+  color: var(--text-copyright-footer-color);
+}
+
+.link-addres-map:hover {
+  color: var(--text-copyright-footer-color);
+}
+
+.link-addres-map:focus {
+  color: var(--text-copyright-footer-color);
+}
+
+
+
 .footer-icon-list {
   display: flex;
 }
+
+
 .footer-text-list {
   display: flex;
   flex-wrap: wrap;
@@ -108,11 +131,23 @@
   margin-bottom: 14px;
 }
 .footer-text {
+  display: block;
   color: var(--text-copyright-footer-color);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  scale: 1;
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-text-link:hover {
+  scale: 1.1; 
+}
+
+.footer-text-link:focus {
+  scale: 1.1;
+}
+
 @media screen and (min-width: 375px) {
   .container {
     max-width: none;
