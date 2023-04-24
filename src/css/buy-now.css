@@ -101,6 +101,10 @@ body.modal-open {
     color: var(--text-color);
 }
 
+.modal-form-input:invalid {
+    border-color: rgb(255, 0, 0);
+}
+
 .textarea-wraper {
     margin-bottom: 20px;
 }
