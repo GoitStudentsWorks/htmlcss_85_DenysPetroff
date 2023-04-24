@@ -1,32 +1,30 @@
-// new Swiper("#swiper", {
-//   effect: "fade"
-// })
+
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'vertical',
   loop: true,
 
-  // If we need pagination
+ // Navigation arrows
+ navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+  // Pagination
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction'
-    // renderFraction: function (currentClass, totalClass) {
-    //   return '<span class="' + currentClass + '"></span>' +
-    //    '___' +
+  //   formatFractionCurrent: function (number) {
+  //     return ('0' + number).slice(-2);
+  // },
+  // formatFractionTotal: function (number) {
+  //     return ('0' + number).slice(-2);
+  // },
+    // renderCustom: function (currentClass, totalClass) {
+    //   return '<span class="' + currentClass + '"></span>' + ' --- ' +
     //   '<span class="' + totalClass + '"></span>';
     // }
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
   },
 
 
@@ -38,6 +36,5 @@ effect: "cube"
 // shadowScale: 0.94; 
 //   }
 
- 
 
 });
