@@ -182,12 +182,12 @@
 
 .hero-text {
   display: block;
-  width: 248px;
+  width: 215px;
   padding: 0;
   margin-bottom: 130px;
   margin-top: 130px;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 32px;
 }
 
 .hero-image {
