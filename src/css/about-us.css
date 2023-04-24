@@ -1,7 +1,7 @@
 .about-us-section {
     background-color: var(--section-bg-color-cream);
 }
-.section { width: 100%;}
+/* .section { width: 100%;} */
 .container {
     width: 100%;
     max-width: 355px;
