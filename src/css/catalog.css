@@ -1,7 +1,6 @@
 .catalog-container {
    width: 100%;
    max-width: 355px;
-    /* outline: 1px solid red; */
     padding-left: 10px;
     padding-right: 10px;
     margin-left: auto;
@@ -9,7 +8,7 @@
 }
 
 .catalogs {
-   background-color: var(--section-bg-color-white);
+   background-color: var(--section-bg-color-creame);
 }
 .overlay>img {
     margin-left: auto;
@@ -111,7 +110,8 @@
 .overlay {
     position: relative;
     overflow: hidden;
-    padding-bottom: 57px;
+    padding-bottom: 47px;
+    margin-bottom: 8px;
 }
 
 .overlay-desrpiption {
