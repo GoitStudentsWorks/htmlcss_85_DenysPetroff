@@ -2,21 +2,14 @@
   background-color: var(--section-hero-bg-color);
 }
 
-/* .container {
-  width: 100%;
-  max-width: 375px;
-} */
+
 
 .hero {
-  width: 100%;
-  max-width: 375px;
   height: auto;
-  margin: 0 auto;
-  justify-content: center;
+   justify-content: center;
   background-color: var(--section-hero-bg-color);
   background-position: center;
   background-size: cover;
-  /* outline: 1px solid red; */
 }
 
 
@@ -130,20 +123,10 @@
   margin-right: auto; 
 }
 
-@media screen and (min-width: 375px) {
-.hero {
-  max-width: none;
-  width: 375px;
-}
-}
+
 
 @media screen and (min-width: 768px) {
 
-.container {
-  width: 768px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
 
 .section {
   margin: 0;
@@ -152,9 +135,6 @@
 .hero {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 768px;
-  min-width: 0;
   align-items: center;
   padding: 0;
 }
@@ -197,11 +177,9 @@
 @media screen and (min-width: 1280px) {
       
 .hero {
-  width: 1280px;
   padding-top: 148px;
   padding-bottom: 80px;
-  padding-left: 132px;
-  padding-right: 132px;
+
 }
 
 #swiper {

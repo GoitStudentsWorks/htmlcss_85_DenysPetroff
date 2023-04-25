@@ -1,11 +1,7 @@
 .about-us-section {
     background-color: var(--section-bg-color-cream);
 }
-/* .section { width: 100%;} */
-.container {
-    width: 100%;
-    max-width: 375px;
-}
+
  .about-us { 
     font-weight: 600;
     font-size: 32px;
@@ -33,13 +29,11 @@
 }
 
 
-
-
  
 @media screen and (min-width: 768px) {
 
         .about-images {
-       width: 100%;
+       max-width: 100%;
     }
    
 
@@ -48,11 +42,6 @@
     padding-bottom: 64px;
 }
 
-.container {
-    width: 736px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
 .about-us {
     margin-right: 40px;
     font-size: 40px;
@@ -77,9 +66,7 @@
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
-    }
+ 
     .about-us {
         font-size: 40px;
         margin-right: 110px;
@@ -92,12 +79,12 @@
     }
 
     .about-us-two {
-        width: 380px;
+        max-width: 380px;
         
     }
 
         .about-images {
-        /* margin: 0 246px auto; */
+      
         width: 892px;
         margin-left: auto;
     }
