@@ -9,13 +9,11 @@
   width: 100%;
 }
 .header-container {
-  padding-top: 29px;
-}
-.header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 29px;
 }
 .logo-img {
   background-color: transparent;
@@ -79,17 +77,11 @@
   width: 24px;
 }
 .mob-menu-open {
-  /* top: 25px;
-  right: 0; */
   background-color: transparent;
   border: 0;
 }
 
 @media screen and (min-width: 768px) {
-  /* .container {
-   
-    
-  } */
   .header-container {
     padding-top: 34px;
     display: flex;
@@ -125,4 +117,3 @@
     display: none;
   }
 }
-
