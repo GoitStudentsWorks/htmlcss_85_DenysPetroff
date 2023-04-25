@@ -38,5 +38,6 @@ for (var i = 0; i < links.length; i++) {
     var menu = document.querySelector('#mobile-menu');
     // закриваємо меню
     menu.classList.remove('is-open');
+    bodyScrollLock.enableBodyScroll(document.body);
   });
 }
