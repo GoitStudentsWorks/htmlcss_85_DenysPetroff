@@ -57,7 +57,7 @@ img {
   } 
  
 .container {
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   width: 100%;
   max-width: 375px;
   padding-left: 20px;
@@ -81,8 +81,8 @@ img {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
 }
