@@ -1,11 +1,11 @@
-.catalog-container {
+.container {
    width: 100%;
-   max-width: 355px;
-    padding-left: 10px;
-    padding-right: 10px;
+   max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 1px solid red; */
+    
 }
 
 .catalogs {
@@ -17,31 +17,36 @@
 }
 
 @media screen and (min-width: 375px) {
-    .catalog-container {
+    .container {
         max-width: none;
-        width: 355px;
+        width: 375px;
+        
         
 
     }
 }
 
 @media screen and (min-width: 768px) {
-    .catalog-container {
-        width: 736px;
+    .container {
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
 
     }
 
 }
 
 @media screen and (min-width: 1280px) {
-    .catalog-container {
-        width: 1200px;
+    .container {
+        width: 1280px;
+        padding-left: 132px;
+        padding-right: 132px;
     }
 
 }
 
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
 .blockmob {
     display: none;
 }

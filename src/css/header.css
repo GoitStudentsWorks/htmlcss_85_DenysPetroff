@@ -1,8 +1,8 @@
 .container {
   width: 100%;
-  max-width: 355px;
-  padding-left: 10px;
-  padding-right: 10px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 .link {
@@ -12,6 +12,7 @@
   background-color: transparent;
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
 }
 .header-container {
@@ -94,12 +95,13 @@
 @media screen and (min-width: 375px) {
   .container {
     max-width: none;
-    width: 355px;
+    width: 375px;
+    
   }
 }
 @media screen and (min-width: 768px) {
-  .container.header-container {
-    max-width: 736px;
+  .container {
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
@@ -139,8 +141,8 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container.header-container {
-    max-width: 1200px;
+  .container {
+    width: 1280px;
     padding-left: 12px;
     padding-right: 12px;
   }

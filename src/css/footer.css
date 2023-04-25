@@ -5,8 +5,6 @@
 .container {
   width: 100%;
   max-width: 355px;
-  padding-left: 10px;
-  padding-right: 10px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -151,20 +149,21 @@
 @media screen and (min-width: 375px) {
   .container {
     max-width: none;
-    width: 355px;
+    width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 736px;
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .footer.section {
     padding-top: 80px;
   }
   .container.foot {
     position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
+    
   }
   .footer-text-wrap {
     display: flex;
@@ -207,16 +206,17 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1200px;
+    width: 1280px;
+    padding-left: 132px;
+      padding-right: 132px;
   }
   .footer.section {
     padding-top: 104px;
     padding-bottom: 32px;
   }
-  .container.foot {
-    padding-left: 132px;
-    padding-right: 132px;
-  }
+  /* .container.foot {
+    
+  } */
   .footer-address-list {
     margin-bottom: 174px;
   }
