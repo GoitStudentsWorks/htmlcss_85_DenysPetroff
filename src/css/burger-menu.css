@@ -5,7 +5,7 @@
 
   height: 100%;
   background-color: var(--footer-burger-accent-bg-dark-green);
-  padding: 29px 20px 0 20px;
+  padding: 29px 35px 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +17,7 @@
 .mob-menu-logo-bt-wrap {
   display: flex;
   justify-content: space-between;
-  max-width: 355px;
+  max-width: 330px;
   margin: 0 auto;
 }
 .mob-menu.is-open {
