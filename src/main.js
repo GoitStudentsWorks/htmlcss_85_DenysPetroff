@@ -1,3 +1,3 @@
-import './mobile-menu.js'
-import './modal.js'
-import './hero.js'
+import './js/mobile-menu.js'
+import './js/modal.js'
+import './js/hero.js'
