@@ -1,3 +1,4 @@
+
  <!-- MODAL -->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -74,4 +75,56 @@
         </p>
       </form>
     </div>
+
+    <form class="modal-form">
+      <div class="input-wraper">
+        <label class="modal-form-label" for="text">Full name</label>
+        <input
+          type="text"
+          name="user-name"
+          class="modal-form-input"
+          id="text"
+          pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+          placeholder="Enter your full name"
+          title="Name Surname"
+        />
+      </div>
+      <div class="input-wraper">
+        <label class="modal-form-label" for="email">Email</label>
+        <input
+          type="email"
+          name="user-email"
+          class="modal-form-input"
+          id="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="input-wraper">
+        <label class="modal-form-label" for="card-number">Card number</label>
+        <input
+          type="text"
+          name="card-number"
+          class="modal-form-input"
+          id="card-number"
+          placeholder="Enter card"
+        />
+      </div>
+      <div class="textarea-wraper">
+        <label class="modal-form-label" for="user-comment">Comments</label>
+        <textarea
+          class="modal-textarea"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Enter your text"
+        ></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+      <p class="modal-check">
+        By clicking on “Submit” button, you agree to our
+        <a href="" class="privacy-link">Privacy Policy</a>, and allow Promodo to
+        use this information for marketing purposes.
+      </p>
+    </form>
   </div>
+</div>
