@@ -66,7 +66,12 @@
 
 
 @media screen and (min-width: 1280px) {
- 
+
+    /* .about-us-container {
+           justify-content: space-between;
+    
+        }
+  */
     .about-us {
         font-size: 40px;
         margin-right: 110px;
@@ -79,7 +84,7 @@
     }
 
     .about-us-two {
-        max-width: 380px;
+        width: 380px;
         
     }
 
